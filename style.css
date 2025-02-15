@@ -1,0 +1,161 @@
+/* title */
+.navbar-brand{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#title{
+    background-color: #ff4c68;
+}
+
+.navbar .container-fluid{
+    padding: 1% 9%;
+}
+
+.text-center{
+    padding-block: 3%;
+}
+
+.para h1{
+    font-family: "montserrat";
+    font-size: 2rem;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.signup{
+    margin: 5% 3% 5% 0;
+}
+
+.para .title-image{
+    position: absolute;
+    left: 600px;
+    transform: rotate(45deg);
+}
+
+/* feature */
+#features{
+    background-color: #fff;
+    position: relative;
+
+}
+
+.text-center p{
+    padding-inline: 10%;
+    color: #8f8f8f;
+ }
+
+ .text-center h3{
+    font-weight: bold;
+ }
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+/* testimonial */
+
+#testimonial{
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+.carousel-item{
+    color: #fff;
+}
+
+.carousel-item .pics{
+    background-color: #aa9595;
+   width: 70px;
+   height: 70px; 
+   border-radius: 100%;
+   margin: 0.5rem;
+}
+.carousel{
+    position: relative;
+}
+
+.carousel .carousel-inner .carousel-item{
+    padding: 4% 20% 9%;
+}
+
+
+/* press */
+
+#press{
+ background-color: #ff4c68;
+ text-align: center;
+}
+.press-image{
+    width: 70px;
+    margin: 10px;
+}
+/* pricing */
+
+#pricing{
+    padding: 2% 15%;
+}
+
+.pricing-header{
+    font-weight: bold;
+}
+
+.pricing-text{
+    color: #8f8f8f;
+}
+
+.price-card{
+    text-align: center;
+}
+
+.card-header{
+    font-size: large;
+    font-weight: bold;
+}
+
+.card-title{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.column{
+    padding: 3% 2%;
+}
+
+/* cta */
+#cta{
+    text-align: center;
+    padding: 3% 10%;
+    background-color: #ff4c68;
+}
+
+.cta-heading{
+    font-family: "montserrat-bold";
+    font-size: 2rem;
+    color: aliceblue;
+    margin-bottom: 1rem;
+}
+
+.download-button{
+    margin: 10px;
+}
+/* footer */
+
+#footer{
+    text-align: center;
+    padding: 3% 10%;
+}
+
+.font-icon{
+  margin: 5px;  
+}
+
+@media screen and (max-width:600px){
+    .para .title-image{
+        transform: rotate(0deg);
+        position: unset;
+    }
+}
