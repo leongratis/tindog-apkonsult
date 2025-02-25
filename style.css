@@ -26,11 +26,6 @@
     margin: 5% 3% 5% 0;
 }
 
-.para .title-image{
-    position: absolute;
-    left: 600px;
-    transform: rotate(45deg);
-}
 
 /* feature */
 #features{
@@ -90,7 +85,7 @@
  text-align: center;
 }
 .press-image{
-    width: 70px;
+    width: 35px;
     margin: 10px;
 }
 /* pricing */
@@ -153,9 +148,24 @@
   margin: 5px;  
 }
 
-@media screen and (max-width:600px){
-    .para .title-image{
-        transform: rotate(0deg);
-        position: unset;
+@media screen and (min-width:1000px){
+    .para .title-image{position: absolute;
+    left: 600px;
+    transform: rotate(45deg);
     }
 }
+
+@media screen and (max-width:900px) {
+    .navbar-nav{
+       display: block;
+       float: right;
+       margin-right: 1rem;
+    }
+
+    .container .title-image img{
+       width: 20%;
+    }
+}
+
+
+ 
